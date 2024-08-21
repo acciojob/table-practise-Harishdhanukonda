@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+/* General Table Styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+caption {
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+thead {
+    background-color: #f1c40f; /* A slightly different shade of yellow for headers */
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light grey for better readability */
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1; /* Light grey on hover */
+}
+
+/* Header Styles */
+th {
+    font-weight: bold;
+}
